@@ -37,6 +37,8 @@ function sortearAmigo(){
             let CantidadDeAmigos = amigos.length;
             let amigoSorteado = (Math.floor(Math.random() * CantidadDeAmigos))+1;
             console.log(amigoSorteado)
-            let amigoSorteadoNombre = 
+            let amigoSorteadoNombre = amigos[amigoSorteado-1];
+            console.log(amigoSorteadoNombre)
+            document.getElementById('resultado').innerHTML = amigoSorteadoNombre;
         }
 }
