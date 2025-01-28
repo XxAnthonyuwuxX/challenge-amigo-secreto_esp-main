@@ -25,3 +25,18 @@ function agregarAmigoLista(){
     }
 }
 
+function sortearAmigo(){
+    let lista = document.getElementById('listaAmigos')
+    if (amigos.length === 0){
+        alert("No hay amigos en la lista.")
+        return console.log("No hay amigos en la lista.")
+    }else if (amigos.length === 1){
+        alert("No se puede sortear con un solo amigo.")
+        return console.log("No se puede sortear con un solo amigo.")}
+        else{
+            let CantidadDeAmigos = amigos.length;
+            let amigoSorteado = (Math.floor(Math.random() * CantidadDeAmigos))+1;
+            console.log(amigoSorteado)
+            let amigoSorteadoNombre = 
+        }
+}
